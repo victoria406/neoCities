@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The website of Victoria White</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to my Website!</h1>
+
+      <p>This is my website where I test out design. I have some special htmx in here as well. This is more of a playground. If you are interested in my professional portfolio, please visit my GitHub: 
+        <a href="https://github.com/victoria406" target="_blank">GitHub</a>.
+      </p>
+
+      <p>Currently, I am exploring roles related to:</p>
+
+      <ul>
+        <li>Software Engineering</li>
+        <li>Cloud Infrastructure</li>
+        <li>Full Stack</li>
+      </ul>
+
+      <p>Also, check out my LinkedIn! I would love to connect: 
+        <a href="https://www.linkedin.com/in/victoria-white-codes/" target="_blank">LinkedIn</a>.
+      </p>
+
+      <div id="color-demo" class="smooth"
+        hx-get="/colors" hx-swap="outerHTML" hx-trigger="every 1s">
+      </div>
+    </div>
+  </body>
+</html>
